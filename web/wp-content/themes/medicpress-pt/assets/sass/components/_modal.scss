@@ -1,0 +1,46 @@
+/* Modal */
+.modal {
+	background-color: rgba(0, 0, 0, .7);
+
+	&.in,
+	&.fade {
+		.modal-dialog {
+			transform: none;
+		}
+	}
+
+	&-dialog {
+		position: static;
+		display: flex;
+		align-items: center;
+		height: 100%;
+		margin: 0 auto;
+		pointer-events: none;
+	}
+
+	&-content {
+		position: static;
+		flex: 1 1 auto;
+		border-radius: 4px;
+		pointer-events: auto;
+	}
+
+	&-body {
+		padding: ptr(10);
+	}
+
+	&-header {
+		position: absolute;
+		top: ptr(15);
+		right: ptr(15);
+		border-bottom: 0;
+
+		.close {
+			font-size: ptr(36);
+			background-color: transparent;
+			color: #ffffff;
+			border: 0;
+			outline: 0;
+		}
+	}
+}

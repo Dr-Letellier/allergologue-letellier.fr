@@ -1,0 +1,20 @@
+{
+    "name":         "proteusthemes/medicpress-pt",
+    "description":  "WordPress theme by ProteusThemes.",
+    "license":      "GPL-2.0+",
+    "type":         "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:proteusnet/theme-registration-and-updates.git"
+        }
+    ],
+    "require": {
+        "tgmpa/tgm-plugin-activation":                  "~2.6.1",
+        "proteusthemes/wai-aria-walker-nav-menu":       "^1.2.0",
+        "proteusthemes/wp-customizer-utilities":        "^2.3.2",
+        "proteusthemes/proteuswidgets":                 "^3.12.0",
+        "proteusthemes/sticky-menu":                    "^1.2.3",
+        "proteusthemes/theme-registration-and-updates": "^1.2.3"
+    }
+}

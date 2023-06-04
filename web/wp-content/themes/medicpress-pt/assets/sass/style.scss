@@ -1,0 +1,315 @@
+/*!
+Theme Name: MedicPress PT
+Theme URI: https://demo.proteusthemes.com/medicpress/
+Author: ProteusThemes
+Author URI: https://www.proteusthemes.com/
+Description: Patients trust is important, even online. When it comes to doctors, a patient has to feel good and secure around them. MedicPress will boost your online presence with emphasis on local SEO, so your patients will find your website in no time.
+Version: 0.0.0-tmp
+License: GPL 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-background, custom-colors, custom-menu, featured-images, footer-widgets, full-width-template, microformats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, entertainment, holiday
+Text domain: medicpress-pt
+*/
+
+/*
+ TABLE OF CONTENTS
+	01. Project variables............Imported variables
+	02. Twitter Bootstrap............Remove what is not neccessary
+	03. Tags.........................Like <body>, <h1> etc.
+	04. Helpers and utility classes..The general styles like .push-down-15 etc.
+	05. Components...................Imported files, like partials, Compass etc.
+		05.01. Top Bar
+		05.02. Header
+		05.03. Page Header
+		05.04. Sidebar
+		05.05. Footer
+		05.06. Error 404
+		05.07. Boxed Container
+		05.08. Main Navigation
+		05.09. Buttons
+		05.10. Breadcrumbs
+		05.11. Slider
+		05.12. Contact Form 7
+		05.13. Icon Box
+		05.14. Social Icons
+		05.15. Call to Action
+		05.16. Skype Button
+		05.17. Featured Page
+		05.18. Latest News
+		05.19. Accordion
+		05.20. Testimonials
+		05.21. Pricing List
+		05.22. Brochure Box
+		05.23. Important Notice
+		05.24. Opening Time
+		05.25. Icon List
+		05.26. Person Profile
+		05.27. Pricing Table
+		05.28. Article
+		05.29. Meta
+		05.30. WordPress Specific
+		05.31. WordPress Widgets
+		05.32. Pagination
+		05.33. Comments
+*/
+
+/*------------------------------------*\
+	01. Project variables
+
+	only visible in SASS source files
+\*------------------------------------*/
+
+@import 'vars';
+
+/*------------------------------------*\
+	02. Twitter Bootstrap
+
+	Remove what is not necessary
+\*------------------------------------*/
+
+// Core variables and mixins
+@import 'variables';
+@import 'mixins';
+
+// // Reset and dependencies
+@import 'normalize';
+@import 'print';
+
+// Core CSS
+@import 'reboot';
+@import 'type';
+@import 'images';
+@import 'code';
+@import 'grid';
+@import 'tables';
+@import 'forms';
+@import 'buttons';
+
+// // Components
+@import 'animation';
+// @import 'dropdown';
+// @import 'button-group';
+// @import 'input-group';
+// @import 'custom-forms';
+// @import 'nav';
+@import 'navbar';
+@import 'card';
+// @import 'breadcrumb';
+// @import 'pagination';
+// @import 'pager';
+// @import 'labels';
+// @import 'jumbotron';
+// @import 'alert';
+// @import 'progress';
+// @import 'media';
+// @import 'list-group';
+// @import 'close';
+@import 'responsive-embed';
+
+// Components w/ JavaScript
+@import 'modal';
+// @import 'tooltip';
+// @import 'popover';
+@import 'carousel';
+
+// Utility classes
+@import 'utilities';
+
+/*------------------------------------*\
+	03. Tags
+\*------------------------------------*/
+
+html {
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+
+	@include media-breakpoint-up(lg) {
+		font-size: 18px;
+	}
+}
+
+/*------------------------------------*\
+	04. Helpers and very general classes
+\*------------------------------------*/
+
+.screen-reader-text {
+	// scss-lint:disable PlaceholderInExtend
+	@extend .sr-only;
+}
+
+.content-area {
+	margin-bottom: ptr(100);
+}
+
+.site-main {
+	&--left {
+		@include media-breakpoint-up(lg) {
+			padding-left: ptr(45);
+		}
+	}
+
+	&--right {
+		@include media-breakpoint-up(lg) {
+			padding-right: ptr(45);
+		}
+	}
+}
+
+.form-control {
+	font-size: ptr(14);
+	background-color: $gray-lighter;
+	color: #72858a;
+	border: 1px solid $gray-lighter;
+	border-radius: $border-radius;
+	transition: $primary-transition;
+
+	&::placeholder {
+		transition: $primary-transition;
+	}
+
+	&:focus {
+		background-color: transparent;
+		border-color: $gray;
+		color: $gray;
+
+		&::placeholder {
+			color: #72858a;
+		}
+	}
+}
+
+.flexbox-row {
+	padding-top: ptr(30);
+	padding-bottom: ptr(30);
+	margin-top: ptr(-60);
+
+	@include media-breakpoint-up(lg) {
+		display: flex;
+		position: relative;
+		z-index: 5;
+	}
+
+	.panel-grid.panel-has-style > & {
+		@include media-breakpoint-up(lg) {
+			justify-content: inherit;
+		}
+	}
+
+	.panel-grid-cell {
+		@include media-breakpoint-up(lg) {
+			display: flex;
+		}
+
+		&:first-child {
+			z-index: 0;
+
+			.widget > div {
+				@include media-breakpoint-up(lg) {
+					border-top-left-radius: $border-radius;
+					border-bottom-left-radius: $border-radius;
+				}
+			}
+		}
+
+		&:last-child {
+			.widget > div {
+				@include media-breakpoint-up(lg) {
+					border-top-right-radius: $border-radius;
+					border-bottom-right-radius: $border-radius;
+				}
+			}
+		}
+	}
+
+	.widget {
+		@include media-breakpoint-up(lg) {
+			display: flex;
+			width: 100%;
+		}
+
+		@media (min-width: 1260px) {
+			margin-top: ptr(-60);
+		}
+
+		@media (min-width: 1400px) {
+			margin-top: ptr(-100);
+		}
+
+		@media (min-width: 1700px) {
+			margin-top: ptr(-140);
+		}
+
+		> div {
+			box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .13);
+			border-radius: $border-radius;
+
+			@include media-breakpoint-up(lg) {
+				width: 100%;
+				border-radius: 0;
+			}
+		}
+	}
+}
+
+/*------------------------------------*\
+	05. Components
+\*------------------------------------*/
+
+// Layout
+@import 'components/top-bar';
+@import 'components/header';
+@import 'components/page-header';
+@import 'components/sidebar';
+@import 'components/footer';
+@import 'components/error-404';
+@import 'components/boxed-container';
+
+// Elements
+@import 'components/main-navigation';
+@import 'components/buttons';
+@import 'components/breadcrumbs';
+@import 'components/slider';
+@import 'components/modal';
+@import 'components/contact-form-7';
+@import 'components/wpforms';
+
+// Proteus Widgets
+@import 'proteus-widgets/icon-box';
+@import 'proteus-widgets/social-icons';
+@import 'proteus-widgets/call-to-action';
+@import 'proteus-widgets/skype-button';
+@import 'proteus-widgets/featured-page';
+@import 'proteus-widgets/latest-news';
+@import 'proteus-widgets/accordion';
+@import 'proteus-widgets/testimonials';
+@import 'proteus-widgets/pricing-list';
+@import 'proteus-widgets/brochure-box';
+@import 'proteus-widgets/important-notice';
+@import 'proteus-widgets/opening-time';
+@import 'proteus-widgets/icon-list';
+@import 'proteus-widgets/person-profile';
+@import 'proteus-widgets/pricing-table';
+
+// WordPress Specific
+@import 'components/article';
+@import 'components/meta';
+@import 'components/wp';
+@import 'components/wp-widgets';
+@import 'components/pagination';
+@import 'components/comments';
+
+// Fonts
+@import '../../bower_components/font-awesome/scss/font-awesome';
+@import 'components/medic-icons';
+
+// Sticky Menu.
+@import '../../vendor/proteusthemes/sticky-menu/assets/scss/sticky-menu-minimal';
+
+// Slick Carousel
+@import 'slick.scss';
+
+/*------------------------------------*\
+	The End :)
+\*------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+/* 05.15. Call to Action */
+.call-to-action {
+	@include media-breakpoint-up(lg) {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__text {
+		text-align: center;
+		color: #ffffff;
+		padding: 0 0 ptr(25);
+
+		@include media-breakpoint-up(lg) {
+			text-align: left;
+			padding: 0;
+		}
+	}
+
+	&__title {
+		font-size: ptr(36);
+		margin-bottom: 0;
+		margin-right: ptr(20);
+		color: #ffffff;
+	}
+
+	&__subtitle {
+		margin-top: ptr(4);
+		margin-bottom: 0;
+		font-size: ptr(18);
+		line-height: 1.2;
+		color: #ffffff;
+	}
+
+	&__button {
+		text-align: center;
+
+		@include media-breakpoint-up(lg) {
+			text-align: right;
+		}
+
+		.btn {
+			margin-top: ptr(5);
+			margin-bottom: ptr(5);
+			margin-left: ptr(3);
+			margin-right: ptr(3);
+
+			@include media-breakpoint-up(lg) {
+				margin-left: ptr(6);
+				margin-right: ptr(0);
+			}
+
+			&:first-of-type {
+				@include media-breakpoint-up(lg) {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

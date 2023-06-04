@@ -1,0 +1,125 @@
+# Translation of Plugins - BBQ Firewall - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - BBQ Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-03 21:16:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - BBQ Firewall - Stable (latest release)\n"
+
+#: bbq-settings.php:60
+msgid "★★★★★ rating&nbsp;&raquo;"
+msgstr "5 étoiles ★★★★★"
+
+#: bbq-settings.php:56
+msgid "Like BBQ? Give it a"
+msgstr "Vous aimez BBQ ? Donnez-lui"
+
+#: bbq-settings.php:33
+msgid "and try again."
+msgstr "et essayez encore."
+
+#: bbq-settings.php:32
+msgid "WordPress Admin Area"
+msgstr "l’administration WordPress"
+
+#: bbq-settings.php:31
+msgid "Please return to the "
+msgstr "Veuillez retourner à "
+
+#: bbq-settings.php:30
+msgid "Free and Pro versions of BBQ cannot be activated at the same time. "
+msgstr "La version gratuite et la version payante ne peuvent pas être activées en même temps."
+
+#: bbq-settings.php:29
+msgid "Warning:"
+msgstr "Avertissement :"
+
+#: bbq-settings.php:171
+msgid "Homepage"
+msgstr "Page d’accueil "
+
+#: bbq-settings.php:170
+msgid "Plugin Homepage"
+msgstr "Page d’accueil de l’extension"
+
+#. Plugin Name of the plugin
+#: bbq-settings.php:96 bbq-settings.php:190 bbq-settings.php:201
+msgid "BBQ Firewall"
+msgstr "BBQ Firewall"
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#. Description of the plugin
+msgid "BBQ is a super fast firewall that automatically protects WordPress against a wide range of threats."
+msgstr "BBQ est un super pare-feu qui protège automatiquement WordPress contre les requêtes d’URL malicieuses."
+
+#. Plugin URI of the plugin
+msgid "https://perishablepress.com/block-bad-queries/"
+msgstr "https://perishablepress.com/block-bad-queries/"
+
+#: bbq-settings.php:177
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "Notez cette extension »"
+
+#: bbq-settings.php:176
+msgid "Click here to rate and review this plugin at WordPress.org"
+msgstr "Cliquez ici pour noter et évaluer cette extension sur WordPress.org"
+
+#: bbq-settings.php:151
+msgid "Go&nbsp;Pro"
+msgstr "Passer à la version Pro"
+
+#: bbq-settings.php:150
+msgid "Get BBQ Pro for advanced protection"
+msgstr "Passez à BBQ Pro pour une protection améliorée"
+
+#: bbq-settings.php:139
+msgid "Settings"
+msgstr "Réglages"
+
+#: bbq-settings.php:138
+msgid "Visit the BBQ plugin page"
+msgstr "Visitez la page de l’extension BBQ"
+
+#: bbq-settings.php:110
+msgid "Get BBQ Pro &raquo;"
+msgstr "Passez à BBQ Pro »"
+
+#: bbq-settings.php:105
+msgid "BBQ Pro: Advanced WordPress Firewall"
+msgstr "BBQ Pro : pare-feu avancé pour WordPress"
+
+#: bbq-settings.php:104
+msgid "Upgrade your site security with advanced protection and complete control. "
+msgstr "Mettez à jour la sécurité de votre site avec une protection avancée et un contrôle complet."
+
+#: bbq-settings.php:97
+msgid "The free version is completely plug-&amp;-play, protecting your site automatically with no settings required."
+msgstr "Cette version gratuite est complètement plug-&amp;-play et protège votre site automatiquement sans nécessiter de réglage."
+
+#: bbq-settings.php:95
+msgid "Thanks for using the free version of "
+msgstr "Merci d’utiliser la version gratuite de"
+
+#: bbq-settings.php:80
+msgid "Upgrade to BBQ Pro"
+msgstr "Passez à BBQ Pro"
+
+#: bbq-settings.php:78
+msgid "BBQ Version"
+msgstr "Version de BBQ"
+
+#: bbq-settings.php:75
+msgid "Plugin Information"
+msgstr "Information sur l’extension"

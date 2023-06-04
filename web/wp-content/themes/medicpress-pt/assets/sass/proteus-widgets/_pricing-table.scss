@@ -1,0 +1,65 @@
+// 05.27. Pricing Table
+.medicpress-table {
+	font-size: ptr(16);
+	color: $gray-light;
+	border: 0;
+	width: 100%;
+	max-width: 100%;
+
+	thead {
+		th {
+			font-weight: bold;
+			text-align: center;
+			background-clip: padding-box;
+			background-color: $brand-primary;
+			color: #ffffff;
+			border-radius: ptr(2);
+			border-right: 2px solid transparent;
+			border-top: 1px solid transparent;
+			border-bottom: 1px solid transparent;
+			padding: ptr(15) ptr(20);
+
+			&:first-of-type {
+				text-align: left;
+				background-color: transparent;
+				color: $gray-dark;
+				box-shadow: 0 0 0 1px $gray-lighter inset;
+			}
+
+			&:last-of-type {
+				border-right: 0;
+			}
+		}
+	}
+
+	tbody {
+		td {
+			text-align: center;
+			background-clip: padding-box;
+			background-color: #ffffff;
+			box-shadow: 0 0 0 1px $gray-lighter inset;
+			border-radius: ptr(2);
+			border-right: 2px solid transparent;
+			border-bottom: 1px solid transparent;
+			border-top: 1px solid transparent;
+			padding: ptr(15) ptr(20);
+
+			&:first-of-type {
+				font-weight: bold;
+				text-align: left;
+				background-color: $gray-lightest;
+				color: $gray;
+				box-shadow: none;
+			}
+
+			&:last-of-type {
+				border-right: 0;
+			}
+
+			a {
+				font-weight: bold;
+				color: $brand-primary;
+			}
+		}
+	}
+}

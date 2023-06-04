@@ -1,0 +1,9 @@
+{
+	"name": "proteusthemes/theme-registration-and-updates",
+	"description": "Composer package for theme registration and automatic updates",
+	"autoload": {
+		"psr-4": {
+			"ProteusThemes\\ThemeRegistration\\": "src/"
+		}
+	}
+}

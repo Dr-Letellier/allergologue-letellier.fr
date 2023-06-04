@@ -1,0 +1,19 @@
+/* 05.03. Page Header */
+.page-header {
+	text-align: center;
+	background: linear-gradient($gray-lighter, #ffffff);
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #e5e5e5;
+	padding: ptr(50) 0 ptr(47);
+	margin-bottom: ptr(100);
+
+	@include media-breakpoint-up(lg) {
+		padding: ptr(77) 0 ptr(53);
+		margin-top: ptr(-90);
+	}
+
+	&__title {
+		font-size: ptr(30);
+		margin-bottom: 0;
+	}
+}

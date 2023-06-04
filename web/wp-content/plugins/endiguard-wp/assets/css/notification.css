@@ -1,0 +1,24 @@
+#endiguardwp-notifications{
+	display: block;
+	position: fixed;
+	width: 300px;
+	top: 36px;
+	right: 36px;
+}
+.endiguardwp-notification.endiguardwp-notification-success,
+.endiguardwp-notification.endiguardwp-notification-error{
+	border: 1px solid transparent;
+	border-width: 0 0 0 2px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.endiguardwp-notification.endiguardwp-notification-success{
+	background-color: #d1e8be;
+	border-color: #81c04d;
+	color: #507b2c;
+}
+.endiguardwp-notification.endiguardwp-notification-error{
+	background-color: #facfc8;
+	border-color: #ef553a;
+	color: #b4270f;
+}

@@ -1,0 +1,30 @@
+/* 05.06. Error 404 */
+.error-404 {
+	text-align: center;
+
+	&__image {
+		margin: ptr(60) 0;
+	}
+
+	&__subtitle {
+		font-size: ptr(30);
+		color: $brand-primary;
+	}
+
+	// scss-lint:disable SelectorFormat
+
+	.widget_search {
+		margin-bottom: ptr(30);
+
+		@include media-breakpoint-up(lg) {
+			display: inline-block;
+			text-align: center;
+		}
+
+		.search-form {
+			@include media-breakpoint-up(lg) {
+				width: ptr(400);
+			}
+		}
+	}
+}

@@ -1,0 +1,292 @@
+/*
+Theme Name: Letellier
+Description: Theme enfant pour Letellier
+Author: Emedian
+Author URI: https://e-median.com
+Template: medicpress-pt
+Version: 1.0.0
+Text Domain:  medicpress-pt
+*/
+
+.top__container .top p {
+font-size: 0.9rem;
+}
+
+.top__container .top .textwidget h1 {
+font-size: 1.1rem;
+}
+
+.main-navigation a, .pt-slick-carousel__content-title, .content-area .icon-box__title, .latest-news--more-news, .accordion__panel .panel-title a, .pricing-list__price, .important-notice__text, .opening-time, .icon-list__text, .person-profile .icon-list__item--featured .icon-list__text, .content-area .widget_nav_menu .menu a, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Bitter', Georgia, 'Times New Roman', Times, serif !important;
+}
+
+#homeColOne h3, #homeColDeux h3 {
+    font-size: 1.14rem;
+}
+
+#homeColOne .opening-time {
+text-shadow: none;
+    color: #55666B;
+}
+
+#homeColOne .opening-time__item {
+    border-bottom: 1px solid rgba(83, 102, 107, 0.3)
+}
+
+#homeColDeux h3 {
+color:#fff;
+}
+
+#homeColDeux .opening-time__item:last-of-type {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#homeColTrois .icon-list__item:last-child, .page-id-255 .icon-list__item:last-child {
+    float: left;
+}
+
+#homeColTrois .btn, .page-id-255 .btn {
+width:100%;
+text-align:left;
+padding: 0.3rem 1rem;
+}
+
+#homeColTrois img {
+padding-left: 2rem;
+}
+@media (max-width: 1199px) {
+	#homeColTrois img {
+	padding-left: 0;
+	}
+}
+
+@media (max-width: 990px) {
+	#homeColTrois .btn {
+	width: 60%;
+	}
+	#homeColTrois img {
+	padding-left: 1rem;
+	}
+}
+@media (min-width: 990px) AND (max-width: 1200px) {
+	#homeColTrois .btn {
+	width: 110%;
+	}
+}
+
+@media (max-width: 530px) {
+	#homeColTrois .btn {
+	width: 110%;
+	}
+}
+
+
+@media (min-width: 990px) {
+	.pt-slick-carousel__content {
+    text-align: center;
+    top: 45%;
+	}
+}
+
+/*#pgc-9-5-2 .latest-news__content {
+    border: 1px solid #dddddd;
+    border-radius: 0.2222222222rem;
+}
+
+#pgc-9-5-2 .latest-news__title {
+	font-size: 1rem;
+}*/
+/*.page-id-114 #homeColOne, .page-id-114 #homeColDeux, .page-id-114 #homeColTrois*/
+
+@media (min-width: 990px) {
+	#pgc-114-0-0, #pgc-114-0-1, #pgc-114-0-2 {
+	width:33.33333333333333333333% !important;
+	margin:0;
+	}
+}
+
+@media (min-width: 990px) {
+	#pgc-114-0-0 .panel-widget-style, #pgc-114-0-1 .panel-widget-style, #pgc-114-0-2 .panel-widget-style {
+	min-height:292px;
+	}
+}
+
+.page-id-114 .content-area {
+margin-bottom:0;
+}
+#pg-114-1 {
+margin-bottom:0 !important;
+}
+
+.bouttonContenu .btn {
+	text-align:left;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+}
+.bouttonContenu img {
+padding-left: 1rem;
+}
+
+.bouttonContenu .call-to-action__button .btn {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 990px) {
+	.bouttonContenu .call-to-action__button {
+    width: 100%;
+	}
+}
+/*
+.bouttonContenu .call-to-action__button {
+ width: 50%;
+}
+*/
+@media (max-width: 360px) {
+	.bouttonContenu img {
+    padding-left: 0;
+	}
+}
+#panel-255-0-0-2> .panel-widget-style {
+background-color:#e9edf0 !important;
+}
+
+.page-id-151 .opening-time, .page-id-1036 .opening-time, .page-id-255 .opening-time {
+font-size: 0.75rem;
+}
+.page-id-151 .widget-opening-time:nth-child(2) .opening-time, .page-id-1036 .widget-opening-time:nth-child(2) .opening-time, .page-id-255 .widget-opening-time:nth-child(3) .opening-time {
+background:#e9edf0;
+color:#54666b;
+text-shadow:none;
+}
+.page-id-151 .widget-opening-time:nth-child(2) .opening-time .opening-time__item, .page-id-1036 .widget-opening-time:nth-child(2) .opening-time .opening-time__item, .page-id-255 .widget-opening-time:nth-child(3) .opening-time .opening-time__item {
+border-bottom: 1px solid #b5bec2;
+}
+.page-id-151 .opening-time__item--less-important, .page-id-1036 .opening-time__item--less-important, .page-id-255 .opening-time__item--less-important {
+font-size: 0.90rem;
+border-bottom:0;
+color:#54666b;
+}
+.page-id-151 .widget-opening-time:nth-child(3) .opening-time .opening-time__item--less-important, .page-id-1036 .widget-opening-time:nth-child(3) .opening-time .opening-time__item--less-important, .page-id-255 .widget-opening-time:nth-child(4) .opening-time .opening-time__item--less-important {
+color:#fff;
+}
+
+.page-id-151 .widget-opening-time:nth-child(3) .opening-time .opening-time__item:last-of-type, .page-id-1036 .widget-opening-time:nth-child(3) .opening-time .opening-time__item:last-of-type, .page-id-255 .widget-opening-time:nth-child(4) .opening-time .opening-time__item:last-of-type {
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#panel-255-0-0-1 {
+    background-color: #66d0cc;
+	padding: 37px 40px 22px 40px;
+    border-radius: 4px;
+}
+
+.page-id-255 img {
+padding-left: 0;
+}
+
+.page-id-255 .important-notice__label {
+    padding: 0.3rem 1.4rem;
+}
+
+.blog .next .fa {
+margin-top: 0.8rem;
+}
+
+@media (min-width: 990px) {
+	.footer .widget_nav_menu {
+	margin-left:155px;
+	}
+
+	.mentionsFooter {
+	float:left;
+	margin-right:30px;
+	}
+}
+
+
+ul.miniMenuFooter {
+list-style-type:none;
+margin-left:0;
+padding-left:0;
+}
+
+ul.miniMenuFooter li {
+padding-bottom:10px;
+padding-top:10px;
+border-bottom: 1px solid #fff;
+}
+
+ul.miniMenuFooter li.avecPdf {
+padding-left:30px;
+background: url('http://www.allergologue-letellier.fr/wp-content/uploads/2017/07/PDF-picto.png') no-repeat center left;
+}
+
+ul.miniMenuFooter li a {
+color:#079bbb;
+}
+
+/*
+Vous pouvez ajouter du CSS personnalisé ici.
+
+Cliquez sur l’icône d’aide ci-dessus pour en savoir plus.
+*/
+
+.top__container .top .textwidget h1 {
+    font-size: 0.9rem;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif !important; 
+}
+/*
+#homeColDeux h2 {
+    color: #fff;
+}
+#homeColOne h2, #homeColDeux h2 {
+    font-size: 1.14rem;
+}
+*/
+.titreseo{
+font-size: 0.8888888889rem ;
+line-height: 1.6;
+font-weight: initial;
+font-family: "Open Sans";,Helvetica,Arial,sans-serif;
+margin-top : 0px ;
+}
+/* Mise en forme responsive du titre du slider*/
+.titreA {
+color:#333;
+font-weight:bold;
+line-height: 1.2; 
+font-size :1rem;
+}
+
+.stitreA{
+color:#333;
+font-weight :bold;
+line-height: 1.2; 
+font-size : 2.3333333333rem;
+}
+
+@media (min-width: 992px) {
+	.titreA {
+    color:#fff;
+    font-weight:bold;
+    line-height: 1.2; 
+    font-size :1rem;
+    }
+    .stitreA {
+      color:#fff;
+      font-weight :bold;
+      line-height: 1.2; 
+      font-size : 2.3333333333rem;
+    }
+}
+
+.titreSpe{
+margin-bottom: 0.5rem;
+font-weight: bold;
+line-height: 1.2;
+margin-top: 0;font-size : 2rem ;
+font-family: 'Bitter', Georgia, 'Times New Roman', Times, serif !important; 
+}
+
+

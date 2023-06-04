@@ -1,0 +1,15 @@
+/* 05.29. Meta */
+.meta {
+	&__item {
+		position: relative;
+
+		&:not(:last-child) {
+			&::after {
+				content: '●';
+				color: #dddddd;
+				margin-left: ptr(7);
+				margin-right: ptr(3);
+			}
+		}
+	}
+}

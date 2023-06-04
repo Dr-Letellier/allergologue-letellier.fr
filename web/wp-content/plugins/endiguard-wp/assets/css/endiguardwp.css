@@ -1,0 +1,40 @@
+#endiguardwp-header{
+	height: 35px;
+}
+#endiguardwp-submit{
+	display: none;
+	width: 220px;
+	height: 35px;
+	border: 1px solid #56a34b;
+	background-color: #56a34b;
+	color: #fff;
+	cursor: pointer;
+}
+#endiguardwp-submit:active{
+	background-color: #3d7a34;
+}
+.endiguardwp-container{
+	float: left;
+	margin: 10px 40px 0 0;
+}
+.endiguardwp-container h3{
+	text-align: center;
+}
+.endiguardwp-container h3 i{
+	margin-left: 10px;
+}
+.endiguardwp-container input{
+	margin: 0;
+}
+.endiguardwp-controls button, .endiguardwp-controls input{
+	width: 100%;
+	margin-top: 5px;
+	height: 35px;
+}
+.endiguardwp-controls button{
+	cursor: pointer;
+}
+.endiguardwp-controls button[disabled]{
+	cursor: not-allowed;
+	opacity: 0.65;
+}

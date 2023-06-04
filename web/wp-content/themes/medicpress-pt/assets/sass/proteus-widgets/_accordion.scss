@@ -1,0 +1,108 @@
+/* 05.19. Accordion */
+.accordion {
+	&__panel {
+		.panel-title {
+			margin-bottom: 0;
+
+			a {
+				position: relative;
+				display: block;
+				font-family: $secondary-font;
+				font-size: ptr(18);
+				font-weight: bold;
+				color: $gray;
+				border-top: 1px solid rgba(0, 0, 0, .1);
+				padding: ptr(23) 0 ptr(23) ptr(60);
+				transition: $primary-transition;
+
+				&::after {
+					position: absolute;
+					content: '\f068';
+					font-family: 'FontAwesome';
+					text-align: center;
+					line-height: ptr(26);
+					color: $brand-primary;
+					top: calc(50% - #{ptr(12.5)});
+					left: ptr(15);
+					width: ptr(25);
+					height: ptr(25);
+				}
+
+				&.collapsed {
+					color: $gray;
+
+					&::after {
+						content: '\f067';
+					}
+				}
+
+				&:focus {
+					text-decoration: none;
+				}
+
+				&:hover {
+					text-decoration: none;
+					color: $brand-primary;
+				}
+			}
+		}
+
+		&:last-of-type {
+			border-bottom: 1px solid rgba(0, 0, 0, .1);
+		}
+	}
+
+	&__content {
+		.panel-body {
+			font-size: ptr(14);
+			padding: ptr(20) 0 ptr(20) ptr(60);
+			border-top: 1px solid rgba(0, 0, 0, .1);
+		}
+	}
+
+	.more-link {
+		position: relative;
+		display: block;
+		font-weight: bold;
+		font-size: ptr(18);
+		text-transform: inherit;
+		color: $brand-primary;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: ptr(23) 0 ptr(23) ptr(60);
+		transition: $primary-transition;
+
+		&::after {
+			position: absolute;
+			content: '\f067';
+			font-family: 'FontAwesome';
+			text-align: center;
+			line-height: ptr(26);
+			color: $brand-primary;
+			top: calc(50% - #{ptr(12.5)});
+			left: ptr(15);
+			width: ptr(25);
+			height: ptr(25);
+		}
+
+		&:focus {
+			text-decoration: none;
+			color: $brand-primary;
+		}
+
+		&:hover {
+			text-decoration: none;
+			color: darken($brand-primary, 6);
+		}
+
+		&:active:hover {
+			color: darken($brand-primary, 12);
+		}
+	}
+}
+
+.widget-accordion {
+	.widget-title {
+		margin-bottom: ptr(50);
+	}
+}

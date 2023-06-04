@@ -1,0 +1,134 @@
+/* 05.28. Article */
+.article {
+	margin-bottom: ptr(60);
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	&__featured-image {
+		display: block;
+		border-top-right-radius: $border-radius;
+		border-top-left-radius: $border-radius;
+		margin-bottom: 0;
+
+		.single &,
+		.page & {
+			border-top-right-radius: 0;
+			border-top-left-radius: 0;
+			margin-bottom: ptr(50);
+		}
+
+		&-link {
+			+ .article__content {
+				border-top: 0;
+				border-top-right-radius: 0;
+				border-top-left-radius: 0;
+			}
+		}
+	}
+
+	&__content {
+		font-size: ptr(16);
+		border: 1px solid #dddddd;
+		border-radius: $border-radius;
+		padding: ptr(37) ptr(45) ptr(35);
+
+		// scss-lint:disable QualifyingElement
+		.single &,
+		body.page & {
+			font-size: inherit;
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+
+		.more-link {
+			display: inline-block;
+			font-weight: bold;
+			margin-bottom: ptr(5);
+
+			&.focus,
+			&:hover {
+				color: darken($brand-primary, 6);
+				text-decoration: none;
+			}
+
+			&:active:hover {
+				color: darken($brand-primary, 12);
+			}
+		}
+
+		> p {
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__meta {
+		font-size: ptr(14);
+		margin-bottom: ptr(7);
+
+		.single &,
+		.page & {
+			margin-bottom: ptr(15);
+		}
+
+		a {
+			color: $gray;
+		}
+	}
+
+	&__title {
+		font-size: ptr(36);
+		margin-bottom: ptr(8);
+
+		a {
+			color: $gray;
+		}
+
+		.single &,
+		.page & {
+			margin-bottom: ptr(20);
+		}
+	}
+
+	&__tags {
+		margin-top: ptr(17);
+
+		a {
+			display: inline-block;
+			font-size: ptr(12);
+			font-weight: bold;
+			color: $brand-primary;
+			border: 1px solid $brand-primary;
+			border-radius: ptr(30);
+			padding: ptr(5) ptr(12);
+			margin-right: ptr(10);
+			margin-bottom: ptr(10);
+			transition: $primary-transition;
+
+			&:focus,
+			&:hover {
+				text-decoration: none;
+				background-color: $brand-primary;
+				color: #ffffff;
+				border-color: $brand-primary;
+			}
+
+			&:active:hover {
+				background-color: darken($brand-primary, 6);
+				color: #ffffff;
+				border-color: darken($brand-primary, 6);
+			}
+		}
+	}
+
+	&.sticky {
+		.article__content {
+			border: 0;
+			background-color: $gray-lighter;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+/* 05.24. Opening Time */
+.opening-time {
+	font-family: $secondary-font;
+	font-size: ptr(16);
+	font-weight: bold;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+	color: #ffffff;
+
+	.sidebar &,
+	.footer & {
+		background-color: $brand-primary;
+		border-radius: $border-radius;
+		padding: ptr(17) ptr(25) ptr(7);
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid rgba(255, 255, 255, .3);
+		padding-bottom: ptr(6);
+		margin-bottom: ptr(6);
+
+		&:last-of-type {
+			border-bottom: 0;
+		}
+
+		&--less-important {
+			color: darken(#ffffff, 12);
+		}
+	}
+}

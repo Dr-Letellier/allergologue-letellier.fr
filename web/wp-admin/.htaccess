@@ -1,0 +1,20 @@
+Order Deny,Allow
+Deny from all
+Allow from 46.31.192.190 46.31.192.191 46.31.192.192 46.31.192.193 46.31.192.194 46.31.192.195 46.31.192.196 46.31.192.197 46.31.192.198 46.31.192.199
+Allow from 46.31.192.200 46.31.192.201 46.31.192.202 46.31.192.203 46.31.192.204 46.31.192.205 46.31.192.206 46.31.192.207 46.31.192.208  46.31.192.209 
+Allow from 46.31.193.192 46.31.192.23
+AuthUserFile /home/WwwBSD/allergologue-letellier.fr/web/wp-admin/.htpasswd
+AuthName "Identification requise"
+AuthType Basic
+require valid-user
+Satisfy Any
+#Accès publique uniquement au admin-ajax.php
+<files admin-ajax.php>
+    Order deny,allow
+    Allow from all
+</files>
+#Accès publique uniquement au password-strength-meter
+<files password-strength-meter.min.js>
+    Order deny,allow
+    Allow from all
+</files>

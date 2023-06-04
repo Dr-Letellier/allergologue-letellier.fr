@@ -1,0 +1,114 @@
+/* 05.05. Footer */
+.footer {
+	&-top {
+		position: relative;
+		background-color: $gray-lighter;
+		padding: ptr(30) 0 0;
+
+		@include media-breakpoint-up(lg) {
+			padding: ptr(55) 0 ptr(25);
+		}
+
+		&__heading {
+			font-size: ptr(18);
+			margin-bottom: ptr(22);
+			color: $brand-primary;
+		}
+
+		.widget {
+			margin-bottom: ptr(30);
+		}
+
+		a {
+			color: inherit;
+		}
+
+		&__back-to-top {
+			position: absolute;
+			right: 0;
+			bottom: ptr(60);
+			background-color: $brand-primary;
+			padding: ptr(9) ptr(14);
+			border-top-left-radius: ptr(45);
+			border-bottom-left-radius: ptr(45);
+			transition: $primary-transition;
+
+			&:focus {
+				background-color: $brand-primary;
+			}
+
+			&:hover {
+				background-color: darken($brand-primary, 6);
+			}
+
+			&:active:hover {
+				background-color: darken($brand-primary, 12);
+				color: #ffffff;
+			}
+
+			.fa {
+				color: #ffffff;
+			}
+		}
+	}
+
+	&-bottom {
+		display: flex;
+		flex-flow: column nowrap;
+
+		@include media-breakpoint-up(lg) {
+			justify-content: space-between;
+			align-items: center;
+			flex-flow: row nowrap;
+		}
+
+		&__container {
+			background-color: #dbdee0;
+			font-size: ptr(13);
+			text-align: center;
+		}
+
+		a {
+			color: inherit;
+			font-weight: bold;
+		}
+
+		.icon-container {
+			.fa {
+				font-size: ptr(18);
+			}
+
+			+ .icon-container {
+				margin-left: ptr(10);
+			}
+
+			&:hover {
+				color: $brand-primary;
+			}
+		}
+
+		&__left {
+			padding: ptr(20) 0;
+
+			@include media-breakpoint-up(lg) {
+				text-align: left;
+			}
+
+			+ .footer-bottom__right {
+				padding-top: 0;
+
+				@include media-breakpoint-up(lg) {
+					padding: ptr(20) 0;
+				}
+			}
+		}
+
+		&__right {
+			padding: ptr(20) 0;
+
+			@include media-breakpoint-up(lg) {
+				text-align: right;
+			}
+		}
+	}
+}

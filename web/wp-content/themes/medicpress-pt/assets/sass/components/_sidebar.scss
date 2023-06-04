@@ -1,0 +1,22 @@
+/* 05.04. Sidebar */
+.sidebar {
+	margin-top: ptr(50);
+
+	@include media-breakpoint-up(lg) {
+		margin-top: 0;
+	}
+
+	&__headings {
+		font-size: ptr(20);
+		color: $gray;
+		margin-bottom: ptr(20);
+	}
+
+	.widget {
+		margin-bottom: ptr(35);
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}

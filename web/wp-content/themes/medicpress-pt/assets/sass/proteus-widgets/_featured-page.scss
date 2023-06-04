@@ -1,0 +1,97 @@
+/* 05.17. Featured Page */
+.page-box {
+	position: relative;
+
+	&__picture {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: ptr(22);
+
+		img {
+			width: 100%;
+			transform: scale(1);
+			transition: all 300ms ease-out;
+			will-change: transform;
+		}
+	}
+
+	&__title {
+		font-size: ptr(18);
+		margin-bottom: ptr(8);
+
+		a {
+			color: $gray;
+
+			&:focus,
+			&:hover,
+			&:active:hover {
+				color: $gray;
+			}
+		}
+	}
+
+	&__text {
+		font-size: ptr(14);
+		margin-bottom: 0;
+	}
+
+	&__content {
+		display: inline-block;
+		line-height: 1.7;
+		vertical-align: top;
+	}
+
+	&__more-link {
+		display: inline-block;
+		font-size: ptr(14);
+		font-weight: bold;
+		margin-top: ptr(7);
+
+		&:focus {
+			color: $brand-primary;
+			text-decoration: none;
+		}
+
+		&:hover {
+			color: darken($brand-primary, 6);
+			text-decoration: none;
+		}
+
+		&:active:hover {
+			color: darken($brand-primary, 12);
+		}
+	}
+
+	&--block {
+		.page-box__picture {
+			overflow: hidden;
+			margin-bottom: ptr(16);
+
+			&:focus,
+			&:hover {
+				img {
+					transform: scale(1.05);
+				}
+			}
+		}
+	}
+
+	&--inline {
+		display: flex;
+		justify-content: space-between;
+
+		.page-box__picture {
+			display: inline-block;
+			margin: 0;
+		}
+
+		.page-box__title {
+			font-size: ptr(16);
+			margin-bottom: ptr(7);
+		}
+
+		.page-box__content {
+			flex-basis: calc(100% - 120px);
+		}
+	}
+}

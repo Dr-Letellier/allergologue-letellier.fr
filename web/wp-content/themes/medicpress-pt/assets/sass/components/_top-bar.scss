@@ -1,0 +1,85 @@
+/* 05.01. Top Bar */
+.top {
+	position: relative;
+	z-index: 15;
+
+	@include media-breakpoint-up(lg) {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__container {
+		font-size: ptr(13);
+		background-color: $gray-lighter;
+		color: #72858a;
+	}
+
+	.widget {
+		@include media-breakpoint-up(lg) {
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+
+	.textwidget {
+		padding: ptr(13) 0;
+	}
+
+	&__left {
+		@include media-breakpoint-up(lg) {
+			margin-left: ptr(100);
+		}
+
+		.widget {
+			border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+			@include media-breakpoint-up(lg) {
+				border-right: 1px solid rgba(0, 0, 0, .1);
+				border-bottom: 0;
+				padding-right: ptr(15);
+				margin-right: ptr(15);
+			}
+
+			&:last-of-type {
+				border-bottom: 0;
+
+				@include media-breakpoint-up(lg) {
+					border-right: 0;
+					padding-right: 0;
+					margin-right: 0;
+				}
+			}
+		}
+
+		+ .top__right {
+			@include media-breakpoint-up(lg) {
+				margin-left: 0;
+			}
+		}
+	}
+
+	&__right {
+		@include media-breakpoint-up(lg) {
+			margin-left: ptr(100);
+		}
+
+		.widget {
+			border-top: 1px solid rgba(0, 0, 0, .1);
+
+			@include media-breakpoint-up(lg) {
+				border-top: 0;
+				border-left: 1px solid rgba(0, 0, 0, .1);
+				padding-left: ptr(15);
+				margin-left: ptr(15);
+			}
+
+			&:first-of-type {
+				@include media-breakpoint-up(lg) {
+					border-left: 0;
+					padding-left: 0;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+/* 05.22. Brochure Box */
+.brochure-box {
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	background-color: $brand-primary;
+	border-radius: $border-radius;
+	padding: ptr(15) ptr(20) ptr(13);
+	transition: $primary-transition;
+
+	.fa {
+		font-size: ptr(26);
+		vertical-align: middle;
+		color: #ffffff;
+	}
+
+	&__text {
+		font-size: ptr(14);
+		font-weight: bold;
+		margin-left: ptr(15);
+	}
+
+	&:focus,
+	&:hover {
+		text-decoration: none;
+		background-color: darken($brand-primary, 6);
+		color: #ffffff;
+	}
+
+	&:active:hover {
+		background-color: darken($brand-primary, 12);
+	}
+}

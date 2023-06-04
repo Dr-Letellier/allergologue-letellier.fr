@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-04 22:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: bbq-settings.php:33
+msgid "and try again."
+msgstr ""
+
+#. Name of the plugin
+#: bbq-settings.php:136 bbq-settings.php:273 bbq-settings.php:284
+msgid "BBQ Firewall"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"BBQ is a super fast firewall that automatically protects WordPress against a "
+"wide range of threats."
+msgstr ""
+
+#: bbq-settings.php:145
+msgid "BBQ Pro: Advanced WordPress Firewall"
+msgstr ""
+
+#: bbq-settings.php:108
+msgid "BBQ Version"
+msgstr ""
+
+#: bbq-settings.php:91
+msgid "Block Count"
+msgstr ""
+
+#: bbq-settings.php:83
+msgid "blocked requests"
+msgstr ""
+
+#: bbq-settings.php:259
+msgid "Click here to rate and review this plugin at WordPress.org"
+msgstr ""
+
+#: bbq-settings.php:189
+msgid "Click to test if BBQ is working (opens new tab)"
+msgstr ""
+
+#: bbq-settings.php:152
+msgid "Click to view full size screenshot (opens new tab)"
+msgstr ""
+
+#: bbq-settings.php:321
+msgid "Confirm Test"
+msgstr ""
+
+#: bbq-settings.php:209
+msgid "Donate via PayPal, credit card, or cryptocurrency"
+msgstr ""
+
+#: bbq-settings.php:30
+msgid "Free and Pro versions of BBQ cannot be activated at the same time. "
+msgstr ""
+
+#: bbq-settings.php:233
+msgid "Get BBQ Pro for advanced protection"
+msgstr ""
+
+#: bbq-settings.php:158
+msgid "Get BBQ Pro&nbsp;&raquo;"
+msgstr ""
+
+#: bbq-settings.php:234
+msgid "Go&nbsp;Pro"
+msgstr ""
+
+#: bbq-settings.php:254
+msgid "Homepage"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://perishablepress.com/block-bad-queries/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr ""
+
+#: bbq-settings.php:199
+msgid "Let others know about BBQ Firewall! A huge THANK YOU for your support!"
+msgstr ""
+
+#: bbq-settings.php:54
+msgid "Like BBQ? Give it a"
+msgstr ""
+
+#: bbq-settings.php:324
+msgid "No, abort mission."
+msgstr ""
+
+#: bbq-settings.php:323
+msgid "Okay run the test."
+msgstr ""
+
+#: bbq-settings.php:31
+msgid "Please return to the "
+msgstr ""
+
+#: bbq-settings.php:253
+msgid "Plugin Homepage"
+msgstr ""
+
+#: bbq-settings.php:105
+msgid "Plugin Information"
+msgstr ""
+
+#: bbq-settings.php:114
+msgid "Rate Plugin"
+msgstr ""
+
+#: bbq-settings.php:260
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr ""
+
+#: bbq-settings.php:154
+msgid "Screenshot showing BBQ Pro settings"
+msgstr ""
+
+#: bbq-settings.php:155
+msgid "Screenshot showing BBQ Pro statistics"
+msgstr ""
+
+#: bbq-settings.php:156
+msgid "Screenshot showing BBQ Pro tools"
+msgstr ""
+
+#: bbq-settings.php:222
+msgid "Settings"
+msgstr ""
+
+#: bbq-settings.php:116
+msgid "Show Support"
+msgstr ""
+
+#: bbq-settings.php:200
+msgid "Show support with a 5-star rating&nbsp;&raquo;"
+msgstr ""
+
+#: bbq-settings.php:210
+msgid "Show support with a small donation&nbsp;&raquo;"
+msgstr ""
+
+#: bbq-settings.php:190
+msgid "Test BBQ Firewall &raquo;"
+msgstr ""
+
+#: bbq-settings.php:110
+msgid "Test Firewall"
+msgstr ""
+
+#: bbq-settings.php:135
+msgid "Thanks for using the free version of "
+msgstr ""
+
+#: bbq-settings.php:137
+msgid ""
+"The free version is completely plug-&amp;-play, protecting your site "
+"automatically with no settings required."
+msgstr ""
+
+#: bbq-settings.php:322
+msgid ""
+"This test opens a new tab. If the response is 403 Forbidden (HTTP Error 403),"
+" the firewall is working."
+msgstr ""
+
+#: bbq-settings.php:120
+msgid "Upgrade to BBQ Pro"
+msgstr ""
+
+#: bbq-settings.php:144
+msgid ""
+"Upgrade your site security with advanced protection and complete control."
+msgstr ""
+
+#: bbq-settings.php:221
+msgid "Visit the BBQ plugin page"
+msgstr ""
+
+#: bbq-settings.php:29
+msgid "Warning:"
+msgstr ""
+
+#: bbq-settings.php:32
+msgid "WordPress Admin Area"
+msgstr ""
+
+#: bbq-settings.php:58
+msgid "★★★★★ rating&nbsp;&raquo;"
+msgstr ""

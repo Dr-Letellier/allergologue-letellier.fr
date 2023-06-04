@@ -1,0 +1,88 @@
+/* AJAX loader/spinner */
+.pt-tr__loader {
+	font-size: 1.5em;
+}
+
+.pt-tr__loader .spinner {
+	display: inline-block;
+	float: none;
+	visibility: visible;
+	background-size: 30px 30px;
+	height: 30px;
+	width: 30px;
+	margin-top: 8px;
+}
+
+
+/* Input error */
+input.is-input-error {
+	border: 1px solid #d9534f;
+}
+
+
+/* Registration page */
+.pt-tr .about-text {
+	min-height: auto;
+}
+
+.pt-tr.about-wrap h1 img {
+	border: none;
+	width: 50px;
+	margin-bottom: 10px;
+}
+
+.pt-tr hr {
+	margin: 30px 0;
+}
+
+.pt-tr input[type="text"],
+.pt-tr input[type="email"] {
+	padding: 3px 8px;
+	font-size: 1.7em;
+	line-height: 100%;
+	height: 1.7em;
+	width: 100%;
+	outline: 0;
+	margin: 0 0 3px;
+	background-color: #fff;
+}
+
+.pt-tr label {
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.pt-tr label[for="pt-subscribe-newsletter"] {
+	font-weight: normal;
+}
+
+.pt-tr__settings-panel {
+	margin: 30px 0;
+}
+
+/* PT notice */
+
+.pt-tr-notice {
+	background: #fff;
+	border-left: 4px solid #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	margin: 5px 0 15px;
+	padding: 1px 12px;
+}
+
+.pt-tr-notice-info {
+	border-left-color: #00a0d2;
+}
+
+/* Success massage */
+.pt-success-message {
+	font-weight: bold;
+	color: #46b450;
+}
+
+/* Explanation icon */
+.pt-purchase-code-explanation-icon {
+	text-decoration: none;
+}

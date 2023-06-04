@@ -1,0 +1,15 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_medicpress-pt">
+			<key name="charset_setting" />
+			<key name="logo_img" />
+			<key name="logo2x_img" />
+			<key name="featured_page_custom_text" />
+			<key name="featured_page_custom_url" />
+			<key name="sticky_menu_featured_page_custom_text" />
+			<key name="sticky_menu_featured_page_custom_url" />
+			<key name="footer_bottom_left_txt" />
+			<key name="footer_bottom_right_txt" />
+		</key>
+	</admin-texts>
+</wpml-config>

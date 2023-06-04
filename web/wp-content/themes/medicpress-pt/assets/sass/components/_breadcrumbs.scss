@@ -1,0 +1,38 @@
+/* 05.10. Breadcrumbs */
+.breadcrumbs {
+	font-size: ptr(14);
+	padding: ptr(10) 0 ptr(2);
+
+	a {
+		color: inherit;
+
+		&:focus,
+		&:hover {
+			text-decoration: none;
+			color: $gray-dark;
+
+			span {
+				text-decoration: underline;
+			}
+		}
+
+		&::after {
+			content: '/';
+			margin-right: ptr(5);
+			margin-left: ptr(5);
+		}
+	}
+
+	span > span {
+		display: inline-block;
+		color: inherit;
+	}
+
+	.current-item {
+		color: $gray;
+
+		&::after {
+			display: none;
+		}
+	}
+}
