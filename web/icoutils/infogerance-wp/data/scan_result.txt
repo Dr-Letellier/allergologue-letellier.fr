@@ -1,1 +1,0 @@
-a:1:{i:1;a:2:{i:0;s:105:"avertissement:Le plugin <strong>Akismet Anti-Spam</strong> <em>(akismet)</em> est installé mais inactif.";i:1;s:109:"avertissement:Le plugin <strong>WPS Hide Login</strong> <em>(wps-hide-login)</em> est installé mais inactif.";}}

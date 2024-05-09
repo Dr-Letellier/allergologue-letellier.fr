@@ -1,6 +1,0 @@
-Sitemap: http://www.allergologue-letellier.fr/sitemap.xml
-
-# global
-User-agent: *
-Disallow: /xmlrpc.php
-
