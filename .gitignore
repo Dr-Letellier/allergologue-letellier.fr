@@ -1,2 +1,2 @@
-*.json
+.vscode/**
 old_data/**

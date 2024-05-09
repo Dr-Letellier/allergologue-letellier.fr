@@ -1,0 +1,133 @@
+.header_title {
+  color: white;
+  padding-top: 10%;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-image: url("/assets/img/2017/02/Slider.jpg");
+}
+
+.header_icon {
+  width: auto;
+  height: 38px;
+}
+
+.info_section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: var(--bs-secondary-bg-subtle);
+}
+
+.office_17th_info {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: var(--bs-info-border-subtle);
+}
+
+.american_hospital_info {
+  display: block;
+  height: auto;
+  width: 100%;
+  background-color: var(--bs-danger-bg-subtle);
+}
+
+.secretary_info {
+  background-color: var(--bs-warning-border-subtle);
+  width: 100%;
+  height: auto;
+}
+
+.google_maps_info {
+  width: 100%;
+}
+
+.info_right, .info_left {
+  width: 50%;
+  height: auto;
+}
+
+.link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+#doctolib_id {
+  width: auto;
+  height: 50px;
+}
+
+.info_section_img, .about_section_img {
+  width: 360px;
+  height: auto;
+  align-items: center;
+}
+
+.my_specialties {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_section, .frequent_questions {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bs-dark-bg-subtle);
+}
+
+.frequent_questions {
+  background-color: var(--bs-light-bg-subtle);
+}
+
+#table_of_content_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.table_of_content_footer {
+  list-style: none;
+}
+
+.phone_icon {
+  font-size: 20px;
+}
+
+#image_404_placement {
+  width: auto;
+  margin-top: 25%;
+  height: auto;
+}
+
+#body_404_desing {
+  background-color: rgba(255,255,255,0.5);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading_404_text_placement {
+  padding-left: 10px;
+}
+
+#div_404_desing {
+  width: auto;
+  height: inherit;
+}
+
+.window_padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title_link {
+  color: black;
+  text-decoration: underline;
+}
+
