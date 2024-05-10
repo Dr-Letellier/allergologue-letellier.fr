@@ -1,20 +1,14 @@
 [
     {
     "title":"Qu’est-ce la médecine subaquatique ?",
-    "link":"/blog/articles/plongee/medecine-subaquatique/",
-    "date":"3 juillet 2017",
+    "link":"/blog/plongee/medecine-subaquatique/",
+    "date":"4 juillet 2017",
     "brief":"Outre l’allergologie et la médecine interne, le Dr Letellier pratique également la médecine subaquatique. Médecine de plongée essentiellement, elle vise à donner des avis sur des suspicions d’accidents de plongée et des aptitudes à la plongée. Discipline très intéressante et en vogue, la plongée nécessite une bonne condition physique et bien évidemment des précautions. La …"
     },
     {
     "title": "Allergie aux pollens en période estivale",
-    "link":"/blog/articles/allergologie/allergie-aux-pollens/",
+    "link":"/blog/allergologie/allergie-aux-pollens/",
     "date":"3 juillet 2017",
     "brief":"En période estivale, les pollens sont essentiellement ceux des graminées. Il est trop tard pour démarrer une désensibilisation mais il est possible d’utiliser tous les médicaments antiallergiques pour soulager ceux qui n’ont pas pu anticiper la saison. Pour les patients qui souffrent en cette période, il faut impérativement consulter un allergologue en vue de démarrer …"
-    },
-    /*{
-        "title":"test",
-        "link":"google.com",
-        "date":"1 Janvier 1 a.c.",
-        "brief":"Ceci est un article de test qui sert à vérifier le bon fonctionnement des script de la page"
-    }*/
+    }
 ]
